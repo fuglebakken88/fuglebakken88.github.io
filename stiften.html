@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content= "Århus, Erhvervsakademi, Århus night, team dennis, cafe, kaffe, te, burger, banegården, mad, vin">
+    <title>Team Dennis Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styling.css">
+</head>
+    
+    
+    <body class="background">
+    
+    <nav class="navbar">
+            
+            <img class=logo2 src=images/logo%20r%C3%B8d%20sort%20endelig.png alt="logo sort hvid">
+            
+            <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+
+            <ul class="navbar-nav">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="#">Cases</a>
+                    <ul>
+                        <li><a href="streetfood.html"> Street Food</a></li>
+                        <li><a href="sports.html"> Aarhus Sports</a></li>
+                        <li><a href="stiften.html"> Cafe Stiften</a></li>
+                    </ul>
+                </li>
+                <li><a>Opgaver</a>
+                    <ul>
+                        <li><a href="filmplakat.html">filmplakat</a></li>
+                        <li><a href="tuborg.html">Tuborg</a></li>
+
+                    </ul>
+                </li>
+
+
+            </ul>
+
+
+
+        </nav>
+
+        <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="index.html">forside</a>
+            <a href="velkommen.html">velkommen</a>
+            <a href="streetfood.html">Streetfood</a>
+            <a href="sports.html">Aarhus Sports</a>
+            <a href="stiften.html">Cafe Stiften</a>
+            <a href="filmplakat.html">filmplakat</a>
+            <a href="tuborg.html">tuborg</a>
+
+        </div>
+
+
+
+        
+
+        <div id="main">
+    
+        
+        <h1 class="overskrift2">Case 3 - Responsiv Hjemmeside, Café Stiften.</h1>
+        
+    
+        <div> 
+    <p> i Case 3 var opgaven, at finde en kunde i Århus, som ikke havde en responsiv hjemmeside, og derefter selv lave et forslag til hvordan siden kunne se ud. min gruppe og jeg valgte Café Stiften som kunde, en lille hyggelig café ved siden af banegården. projektet blev en succes, og jeg vil her vise nogle ting fra den. Dog vil jeg her lige linke til den originale side, så i har noget at sammenligne med. <a href="http://cafestiften.com/" target="_blank"> cafe stiften original</a> </p>
+        </div>
+        
+    
+        
+        <img class="stiftenlogo" src="images/logo.png" alt="stiften logo">
+    
+        <img class="stiften" src="images/cafe%20stiften%201.PNG" alt="stiften1">
+        
+        <img class="stiften2" src="images/cafe%20stiften%202.PNG" alt= "stiften2">
+        
+        <img class="stiften2" src="images/stiten3.PNG" alt="stiften3">
+        
+        <img class="stiften3" src="images/stiften%204.PNG" alt="stiften4">
+        
+        
+       <div class="wrapper">
+        <a href="https://wrd.dk/stiften/" target="_blank"><button>Se hele siden her</button>
+        </a>
+    
+    </div>
+            
+        </div>
+        
+     <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main').style.marginLeft = '0';
+        }
+
+    </script>
+        
+
+        
+    </body>
+ 
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content= "Århus, Erhvervsakademi, Århus night, team dennis, portfolio, streetfood, mad, lækker, haps, nam, rutebilstation, duck it, pizza, lasagne ">
+    <title>Team Dennis Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styling.css">
+</head>
+    
+    
+    <body class="background">
+    
+    <nav class="navbar">
+            
+            <img class=logo2 src=images/logo%20r%C3%B8d%20sort%20endelig.png alt="logo sort hvid">
+            
+            <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+
+            <ul class="navbar-nav">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="#">Cases</a>
+                    <ul>
+                        <li><a href="streetfood.html"> Street Food</a></li>
+                        <li><a href="sports.html"> Aarhus Sports</a></li>
+                        <li><a href="stiften.html"> Cafe Stiften</a></li>
+                    </ul>
+                </li>
+                <li><a>Opgaver</a>
+                    <ul>
+                        <li><a href="filmplakat.html">filmplakat</a></li>
+                        <li><a href="tuborg.html">Tuborg</a></li>
+
+                    </ul>
+                </li>
+
+
+            </ul>
+
+
+
+        </nav>
+
+        <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="index.html">forside</a>
+            <a href="velkommen.html">velkommen</a>
+            <a href="streetfood.html">Streetfood</a>
+            <a href="sports.html">Aarhus Sports</a>
+            <a href="stiften.html">Cafe Stiften</a>
+            <a href="filmplakat.html">filmplakat</a>
+            <a href="tuborg.html">tuborg</a>
+
+        </div>
+
+
+
+       
+
+        <div id="main">
+        
+        <h1 class="overskrift2">Case 1 - Aarhus Kulthovedstad 2017, Aarhus Streetfood.</h1>
+        
+    
+        <div> 
+    <p class="skriftstreetfood"> Case 1 var det første projekt, og dermed vores første større opgave på Erhversakademiet. Opgaven skulle laves i grupper af 4-5 personer. Derudover skulle vi vælge en kunde som havde noget med Kulturhovedstaden 2017 at gøre. Vi valgte her det lidt unikke spisested Aarhus Streetfood til dette formål. Vi udviklede en prototype af en app, men da vores kodningsevner på daværende tidspunkt stadig var begrænsede, var det ikke muligt at kode en version af den. Vi tog dog brug af programmet Experience Design. 
+        </div>
+        
+    
+        
+        <div class="container2">
+    
+        <div>
+        <img class="streetfood2" src=images/app%201.PNG alt="stiften1">
+        </div>    
+        
+        <div>
+        <img class="streetfood2" src="images/app%202.PNG" alt= "stiften2">
+        </div>
+        
+        
+        <div>
+        <img class="streetfood2" src="images/app%203.PNG" alt="stiften3">
+            
+        </div>
+        
+        <div>
+        <img class="streetfood2" src="images/app%204.PNG" alt="stiften4">
+        
+        </div>
+        
+        </div>
+        </div>
+        
+         <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main').style.marginLeft = '0';
+        }
+
+    </script>
+        
+        
+       
+
+        
+
+        
+    </body>
+ 
+</html>
